@@ -1,0 +1,22 @@
+# Site settings
+title: HOPES
+email: your-email@domain.com
+description: HOPES stands for Higher-order Prolog with Extensional Semantics
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+github_username:  hopes
+
+# Build settings
+markdown: kramdown
+
+gems: [ 'jekyll/scholar' ]
+
+
+scholar:
+   style: apa-cv
+   locale: en
+   sort_by: year
+   order: ascending
+   bibliography: ./publications.bib
+   bibliography_template: bibtemplate
+   query: "@*"
